@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <!-- 添加 Skeleton CSS 样式表 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+    <!-- 添加 Slick 样式表 -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+</head>
+<body>
+<div class="container">
+    <h1>Welcome to My Website</h1>
+    <div class="slider">
+        <div><img src="https://cache.bydauto.com.cn/dilink_user_upload/manage/202402/28/17272008mRzHZa.jpg" alt="BYDCAR1"></div>
+        <div><img src="https://cache.bydauto.com.cn/weixin17/carBrightMaterialImage/20230524/bf0b5469b75b576945b4e065c854a1dc.jpg" alt="BYDCAR2"></div>
+        <div><img src="https://cache.bydauto.com.cn/weixin17/carBrightMaterialImage/20230524/c3c9119c541a85c76947ee129cc462ae.jpg" alt="BYDCAR3"></div>
+    </div>
+
+</div>
+
+<!-- 添加 jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<!-- 添加 Slick JS -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+<script>
+    // 初始化 Slick 轮播
+    $(document).ready(function(){
+        $('.slider').slick({
+            autoplay: true,
+            autoplaySpeed: 2000
+        });
+    });
+</script>
+</body>
+</html>
